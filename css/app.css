@@ -1,0 +1,26 @@
+.logo{
+
+}
+
+.search_box{
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    height: 44px;
+    width: 482px;
+}
+
+.search_box input{
+    border: none;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    font: 16px arial,sans-serif;
+    display: flex;
+    flex: 100%;
+    margin-top: 12px;
+    margin-left: 50px;
+}
