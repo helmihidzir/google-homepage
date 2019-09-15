@@ -63,3 +63,48 @@
     height: 36px;
     line-height: 27px;
 }
+
+.navbar{
+    position: absolute;
+    right: 108px;
+    top: 12px;
+}
+
+.navbar li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    color: rgba(0,0,0,0.87);
+    outline: none;
+    font-family: arial,sans-serif;
+}
+
+.navbar li a{
+    text-decoration: none;
+    padding: 30px 4px;
+    font-size: 13px;
+}
+
+.navbar #tiles{
+    height: 19px;
+    width: 22px;
+    position: absolute;
+    top: 17px;
+    right: -20px;
+}
+
+.navbar a .circle{
+    position: absolute;
+    width: 33px;
+    height: 30px;
+    top: 11px;
+    right: -71px;
+    border-radius: 50%;font-size:15px;color:#fff;background:#000;
+}
+
+.navbar a .circle p {
+    position: absolute;
+    top: -8px;
+    left: 11px;
+}    
